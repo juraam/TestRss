@@ -6,6 +6,6 @@
 
 @protocol ListRssRouterInput <NSObject>
 
-
+- (void)presentRootNavigationModuleFromWindow:(UIWindow *)window;
 
 @end

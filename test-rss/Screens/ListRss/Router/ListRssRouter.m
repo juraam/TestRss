@@ -18,10 +18,10 @@
 //    nc.viewControllers = @[self.viewController];
 //}
 //
-//- (void)presentListRssModuleFromWindow:(UIWindow *)window
-//{
-//    [window setRootViewController:self.viewController];
-//    [window makeKeyAndVisible];
-//}
+- (void)presentRootNavigationModuleFromWindow:(UIWindow *)window
+{
+    [window setRootViewController:self.viewController.navigationController];
+    [window makeKeyAndVisible];
+}
 
 @end

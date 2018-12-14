@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ListRssAssembly.h"
+#import "ListRssModuleInput.h"
+#import "RSSService.h"
+
+static NSString *const kAddedTemplateItems = @"kAddedTemplateItems";
 
 @interface AppDelegate ()
 
@@ -16,10 +21,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    CGRect rect = [UIScreen mainScreen].bounds;
+    self.window = [[UIWindow alloc] initWithFrame:rect];
+    [self addTemplateRssItemsIfNeed];
+    NSObject <ListRssModuleInput> *input = [ListRssAssembly createModule];
+    [input presentRootNavigationModuleFromWindow: self.window];
     // Override point for customization after application launch.
     return YES;
 }
 
+- (void)addTemplateRssItemsIfNeed
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:kAddedTemplateItems] == nil) {
+        [defaults setBool:YES forKey:kAddedTemplateItems];
+        [RSSService addRssItemWithUrl:@"https://www.yahoo.com/news/rss/sports" name:@"Yahoo sport"];
+        [RSSService addRssItemWithUrl:@"http://feeds.bbci.co.uk/sport/rss.xml?edition=int#" name:@"BBC sport"];
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

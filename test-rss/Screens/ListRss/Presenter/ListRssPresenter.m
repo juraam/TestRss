@@ -22,6 +22,11 @@
 
 #pragma mark - <ModuleInput>
 
+- (void)presentRootNavigationModuleFromWindow:(UIWindow *)window
+{
+    [self.router presentRootNavigationModuleFromWindow:window];
+}
+
 #pragma mark - <ViewOutput>
 
 - (void)deleteRssItemWithId:(NSString *)idObject

@@ -9,6 +9,6 @@
 
 @interface ListRssVC : UIViewController <ListRssViewInput>
 
-@property (nonatomic, weak) id<ListRssViewOutput> output;
+@property (nonatomic, strong) id<ListRssViewOutput> output;
 
 @end

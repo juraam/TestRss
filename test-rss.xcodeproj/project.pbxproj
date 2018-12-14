@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3034A51421C3A9B000F77439 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3034A51321C3A9B000F77439 /* AppDelegate.m */; };
-		3034A51721C3A9B000F77439 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3034A51621C3A9B000F77439 /* ViewController.m */; };
 		3034A51A21C3A9B000F77439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3034A51821C3A9B000F77439 /* Main.storyboard */; };
 		3034A51C21C3A9B300F77439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3034A51B21C3A9B300F77439 /* Assets.xcassets */; };
 		3034A51F21C3A9B300F77439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3034A51D21C3A9B300F77439 /* LaunchScreen.storyboard */; };
@@ -22,6 +21,7 @@
 		305B37DC21C3B708009F8134 /* ListRssViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37DB21C3B708009F8134 /* ListRssViewModel.m */; };
 		305B37DF21C3B980009F8134 /* RssItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37DE21C3B980009F8134 /* RssItem.m */; };
 		305B37E221C3BB58009F8134 /* RssItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37E121C3BB58009F8134 /* RssItemCell.m */; };
+		305B37E621C3C3E2009F8134 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37E521C3C3E2009F8134 /* UIViewController+Storyboard.m */; };
 		482D9D8C530E2CD4F20AA94D /* libPods-test-rss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C145970F310E43033D42C1B /* libPods-test-rss.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,6 @@
 		3034A50F21C3A9B000F77439 /* test-rss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-rss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3034A51221C3A9B000F77439 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3034A51321C3A9B000F77439 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3034A51521C3A9B000F77439 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3034A51621C3A9B000F77439 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3034A51921C3A9B000F77439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3034A51B21C3A9B300F77439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3034A51E21C3A9B300F77439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +61,8 @@
 		305B37DE21C3B980009F8134 /* RssItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssItem.m; sourceTree = "<group>"; };
 		305B37E021C3BB58009F8134 /* RssItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssItemCell.h; sourceTree = "<group>"; };
 		305B37E121C3BB58009F8134 /* RssItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssItemCell.m; sourceTree = "<group>"; };
+		305B37E421C3C3E2009F8134 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		305B37E521C3C3E2009F8134 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 		A65DC38CEC3FEF56BA5B7AE0 /* Pods-test-rss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-rss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-rss/Pods-test-rss.debug.xcconfig"; sourceTree = "<group>"; };
 		E8638239D06AE77B7D524150 /* Pods-test-rss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-rss.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-rss/Pods-test-rss.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,14 +100,13 @@
 		3034A51121C3A9B000F77439 /* test-rss */ = {
 			isa = PBXGroup;
 			children = (
+				305B37E321C3C3CA009F8134 /* Extensions */,
 				305B37D621C3B42B009F8134 /* PrefixHeader.pch */,
 				305B37B421C3B189009F8134 /* Models */,
 				3034A52921C3A9F200F77439 /* Screens */,
 				3034A52821C3A9E400F77439 /* Services */,
 				3034A51221C3A9B000F77439 /* AppDelegate.h */,
 				3034A51321C3A9B000F77439 /* AppDelegate.m */,
-				3034A51521C3A9B000F77439 /* ViewController.h */,
-				3034A51621C3A9B000F77439 /* ViewController.m */,
 				3034A51821C3A9B000F77439 /* Main.storyboard */,
 				3034A51B21C3A9B300F77439 /* Assets.xcassets */,
 				3034A51D21C3A9B300F77439 /* LaunchScreen.storyboard */,
@@ -217,6 +216,15 @@
 				305B37CF21C3B214009F8134 /* ListRssRouterInput.h */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		305B37E321C3C3CA009F8134 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				305B37E421C3C3E2009F8134 /* UIViewController+Storyboard.h */,
+				305B37E521C3C3E2009F8134 /* UIViewController+Storyboard.m */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5B83D64E30E8AAD6A0D6615E /* Frameworks */ = {
@@ -333,7 +341,7 @@
 				305B37DF21C3B980009F8134 /* RssItem.m in Sources */,
 				305B37D321C3B214009F8134 /* ListRssVC.m in Sources */,
 				305B37DC21C3B708009F8134 /* ListRssViewModel.m in Sources */,
-				3034A51721C3A9B000F77439 /* ViewController.m in Sources */,
+				305B37E621C3C3E2009F8134 /* UIViewController+Storyboard.m in Sources */,
 				3034A52221C3A9B300F77439 /* main.m in Sources */,
 				305B37D421C3B214009F8134 /* ListRssInteractor.m in Sources */,
 				3034A51421C3A9B000F77439 /* AppDelegate.m in Sources */,

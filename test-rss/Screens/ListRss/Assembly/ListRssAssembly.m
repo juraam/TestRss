@@ -8,12 +8,14 @@
 #import "ListRssInteractor.h"
 #import "ListRssPresenter.h"
 #import "ListRssRouter.h"
+#import "UIViewController+Storyboard.h"
 
 @implementation ListRssAssembly
 
 + (id <ListRssModuleInput>)createModule
 {
-    ListRssVC *view = [ListRssVC new];
+    UINavigationController *navVC = (UINavigationController *)[UIViewController viewControllerWithStoryboardId:@"MainNavigation"];
+    ListRssVC *view = navVC.viewControllers.firstObject;
     ListRssInteractor *interactor = [ListRssInteractor new];
     ListRssPresenter *presenter = [ListRssPresenter new];
     ListRssRouter *router = [ListRssRouter new];
