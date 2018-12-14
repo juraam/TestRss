@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - "MWFeedParser/NSDate+InternetDateTime (= 1.0.1)"
+    - "MWFeedParser/NSString+HTML (= 1.0.1)"
+  - MWFeedParser/FeedParser (1.0.1):
+    - "MWFeedParser/NSDate+InternetDateTime"
+    - "MWFeedParser/NSString+HTML"
+  - "MWFeedParser/NSDate+InternetDateTime (1.0.1)"
+  - "MWFeedParser/NSString+HTML (1.0.1)"
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - MWFeedParser
+  - Realm
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MWFeedParser
+    - Realm
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+
+PODFILE CHECKSUM: 58d497c0354fbe95e600d60f5fa09d3ce5105dda
+
+COCOAPODS: 1.5.2
