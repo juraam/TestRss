@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  Myata iOS
+//
+//  Created by Maksim Bazarov on 01/12/15.
+//  Copyright © 2015 Maksim Bazarov. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#endif /* PrefixHeader_pch */
