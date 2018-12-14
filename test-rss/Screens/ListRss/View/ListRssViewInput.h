@@ -11,4 +11,6 @@
 
 - (void)didRssListLoaded: (NSArray *)rssList;
 
+- (UIViewController *)controller;
+
 @end

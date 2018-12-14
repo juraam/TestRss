@@ -7,6 +7,10 @@
 
 - (void)didTriggerViewReadyEvent;
 
+- (void)didViewAppear;
+
 - (void)deleteRssItemWithId: (NSString *)idObject;
+
+- (void)addAction;
 
 @end

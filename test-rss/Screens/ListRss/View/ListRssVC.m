@@ -23,7 +23,26 @@
     [self.output didTriggerViewReadyEvent];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.output didViewAppear];
+}
+
+#pragma mark - IBActions
+
+- (IBAction)addAction:(id)sender
+{
+    [self.output addAction];
+}
+
+
 #pragma mark - <ViewInput>
+
+- (UIViewController *)controller
+{
+    return self;
+}
 
 - (void)configureView
 {

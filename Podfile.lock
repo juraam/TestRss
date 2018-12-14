@@ -26,23 +26,27 @@ PODS:
   - Realm (3.12.0):
     - Realm/Headers (= 3.12.0)
   - Realm/Headers (3.12.0)
+  - SCViewShaker (1.0.2)
 
 DEPENDENCIES:
   - AFNetworking
   - MWFeedParser
   - Realm
+  - SCViewShaker (~> 1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - MWFeedParser
     - Realm
+    - SCViewShaker
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
   Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  SCViewShaker: ebd2937cc5ac1de808164bcb5be2a23c8a6e7ab6
 
-PODFILE CHECKSUM: 58d497c0354fbe95e600d60f5fa09d3ce5105dda
+PODFILE CHECKSUM: c04954aec86c9a6d20dfbe1674de63cfe4403e6c
 
 COCOAPODS: 1.5.2

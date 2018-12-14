@@ -8,6 +8,7 @@
 #import "ListRssInteractorInput.h"
 #import "ListRssModuleOutput.h"
 #import "ListRssRouterInput.h"
+#import "AddRssAssembly.h"
 
 @interface ListRssPresenter ()
 
@@ -38,6 +39,17 @@
 {
     [self.view setupInitialState];
     [self.interactor loadRssList];
+}
+
+- (void)didViewAppear
+{
+    [self.interactor loadRssList];
+}
+
+- (void)addAction
+{
+    NSObject<AddRssModuleInput> *input = [AddRssAssembly createModule];
+    [input presentModuleFromController:self.view.controller];
 }
 
 #pragma mark - <InteractorOutput>

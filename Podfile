@@ -9,5 +9,6 @@ target 'test-rss' do
 pod 'MWFeedParser'
 pod 'AFNetworking'
 pod 'Realm'
+pod 'SCViewShaker', '~> 1.0'
 
 end

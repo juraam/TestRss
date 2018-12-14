@@ -22,6 +22,11 @@
 		305B37DF21C3B980009F8134 /* RssItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37DE21C3B980009F8134 /* RssItem.m */; };
 		305B37E221C3BB58009F8134 /* RssItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37E121C3BB58009F8134 /* RssItemCell.m */; };
 		305B37E621C3C3E2009F8134 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37E521C3C3E2009F8134 /* UIViewController+Storyboard.m */; };
+		305B380221C3CCAF009F8134 /* AddRssAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37E921C3CCAF009F8134 /* AddRssAssembly.m */; };
+		305B380321C3CCAF009F8134 /* AddRssPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37EC21C3CCAF009F8134 /* AddRssPresenter.m */; };
+		305B380421C3CCAF009F8134 /* AddRssVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37F221C3CCAF009F8134 /* AddRssVC.m */; };
+		305B380621C3CCAF009F8134 /* AddRssInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37F921C3CCAF009F8134 /* AddRssInteractor.m */; };
+		305B380721C3CCAF009F8134 /* AddRssRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B380121C3CCAF009F8134 /* AddRssRouter.m */; };
 		482D9D8C530E2CD4F20AA94D /* libPods-test-rss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C145970F310E43033D42C1B /* libPods-test-rss.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +68,23 @@
 		305B37E121C3BB58009F8134 /* RssItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssItemCell.m; sourceTree = "<group>"; };
 		305B37E421C3C3E2009F8134 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
 		305B37E521C3C3E2009F8134 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+		305B37E921C3CCAF009F8134 /* AddRssAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRssAssembly.m; sourceTree = "<group>"; };
+		305B37EA21C3CCAF009F8134 /* AddRssAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssAssembly.h; sourceTree = "<group>"; };
+		305B37EC21C3CCAF009F8134 /* AddRssPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRssPresenter.m; sourceTree = "<group>"; };
+		305B37ED21C3CCAF009F8134 /* AddRssModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssModuleInput.h; sourceTree = "<group>"; };
+		305B37EE21C3CCAF009F8134 /* AddRssModuleOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssModuleOutput.h; sourceTree = "<group>"; };
+		305B37EF21C3CCAF009F8134 /* AddRssPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssPresenter.h; sourceTree = "<group>"; };
+		305B37F121C3CCAF009F8134 /* AddRssVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssVC.h; sourceTree = "<group>"; };
+		305B37F221C3CCAF009F8134 /* AddRssVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRssVC.m; sourceTree = "<group>"; };
+		305B37F321C3CCAF009F8134 /* AddRssViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssViewInput.h; sourceTree = "<group>"; };
+		305B37F421C3CCAF009F8134 /* AddRssViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssViewOutput.h; sourceTree = "<group>"; };
+		305B37F921C3CCAF009F8134 /* AddRssInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRssInteractor.m; sourceTree = "<group>"; };
+		305B37FB21C3CCAF009F8134 /* AddRssInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssInteractorInput.h; sourceTree = "<group>"; };
+		305B37FC21C3CCAF009F8134 /* AddRssInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssInteractor.h; sourceTree = "<group>"; };
+		305B37FD21C3CCAF009F8134 /* AddRssInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssInteractorOutput.h; sourceTree = "<group>"; };
+		305B37FF21C3CCAF009F8134 /* AddRssRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssRouterInput.h; sourceTree = "<group>"; };
+		305B380021C3CCAF009F8134 /* AddRssRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssRouter.h; sourceTree = "<group>"; };
+		305B380121C3CCAF009F8134 /* AddRssRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRssRouter.m; sourceTree = "<group>"; };
 		A65DC38CEC3FEF56BA5B7AE0 /* Pods-test-rss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-rss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-rss/Pods-test-rss.debug.xcconfig"; sourceTree = "<group>"; };
 		E8638239D06AE77B7D524150 /* Pods-test-rss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-rss.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-rss/Pods-test-rss.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +150,7 @@
 		3034A52921C3A9F200F77439 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				305B37E721C3CCAF009F8134 /* AddRss */,
 				305B37B521C3B214009F8134 /* ListRss */,
 			);
 			path = Screens;
@@ -225,6 +248,70 @@
 				305B37E521C3C3E2009F8134 /* UIViewController+Storyboard.m */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		305B37E721C3CCAF009F8134 /* AddRss */ = {
+			isa = PBXGroup;
+			children = (
+				305B37E821C3CCAF009F8134 /* Assembly */,
+				305B37EB21C3CCAF009F8134 /* Presenter */,
+				305B37F021C3CCAF009F8134 /* View */,
+				305B37F821C3CCAF009F8134 /* Interactor */,
+				305B37FE21C3CCAF009F8134 /* Router */,
+			);
+			path = AddRss;
+			sourceTree = "<group>";
+		};
+		305B37E821C3CCAF009F8134 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				305B37E921C3CCAF009F8134 /* AddRssAssembly.m */,
+				305B37EA21C3CCAF009F8134 /* AddRssAssembly.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		305B37EB21C3CCAF009F8134 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				305B37EC21C3CCAF009F8134 /* AddRssPresenter.m */,
+				305B37ED21C3CCAF009F8134 /* AddRssModuleInput.h */,
+				305B37EE21C3CCAF009F8134 /* AddRssModuleOutput.h */,
+				305B37EF21C3CCAF009F8134 /* AddRssPresenter.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		305B37F021C3CCAF009F8134 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				305B37F121C3CCAF009F8134 /* AddRssVC.h */,
+				305B37F221C3CCAF009F8134 /* AddRssVC.m */,
+				305B37F321C3CCAF009F8134 /* AddRssViewInput.h */,
+				305B37F421C3CCAF009F8134 /* AddRssViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		305B37F821C3CCAF009F8134 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				305B37F921C3CCAF009F8134 /* AddRssInteractor.m */,
+				305B37FB21C3CCAF009F8134 /* AddRssInteractorInput.h */,
+				305B37FC21C3CCAF009F8134 /* AddRssInteractor.h */,
+				305B37FD21C3CCAF009F8134 /* AddRssInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		305B37FE21C3CCAF009F8134 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				305B37FF21C3CCAF009F8134 /* AddRssRouterInput.h */,
+				305B380021C3CCAF009F8134 /* AddRssRouter.h */,
+				305B380121C3CCAF009F8134 /* AddRssRouter.m */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		5B83D64E30E8AAD6A0D6615E /* Frameworks */ = {
@@ -336,13 +423,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305B380621C3CCAF009F8134 /* AddRssInteractor.m in Sources */,
+				305B380221C3CCAF009F8134 /* AddRssAssembly.m in Sources */,
 				305B37B321C3B007009F8134 /* RSSService.m in Sources */,
 				305B37D121C3B214009F8134 /* ListRssPresenter.m in Sources */,
+				305B380721C3CCAF009F8134 /* AddRssRouter.m in Sources */,
+				305B380321C3CCAF009F8134 /* AddRssPresenter.m in Sources */,
 				305B37DF21C3B980009F8134 /* RssItem.m in Sources */,
 				305B37D321C3B214009F8134 /* ListRssVC.m in Sources */,
 				305B37DC21C3B708009F8134 /* ListRssViewModel.m in Sources */,
 				305B37E621C3C3E2009F8134 /* UIViewController+Storyboard.m in Sources */,
 				3034A52221C3A9B300F77439 /* main.m in Sources */,
+				305B380421C3CCAF009F8134 /* AddRssVC.m in Sources */,
 				305B37D421C3B214009F8134 /* ListRssInteractor.m in Sources */,
 				3034A51421C3A9B000F77439 /* AppDelegate.m in Sources */,
 				305B37D021C3B214009F8134 /* ListRssAssembly.m in Sources */,

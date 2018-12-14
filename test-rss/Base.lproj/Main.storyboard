@@ -83,7 +83,11 @@
                         <viewLayoutGuide key="safeArea" id="YoZ-ea-uwB"/>
                     </view>
                     <navigationItem key="navigationItem" id="8LV-QA-EPT">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="q6i-rw-CRj"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="q6i-rw-CRj">
+                            <connections>
+                                <action selector="addAction:" destination="VuO-rw-IHH" id="KjX-yN-YGK"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="9xA-8F-1Ry" id="x1x-ch-R1O"/>
@@ -93,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="-127.2" y="-358.4707646176912"/>
         </scene>
-        <!--View Controller-->
+        <!--Add RssVC-->
         <scene sceneID="Qca-yX-Tz1">
             <objects>
-                <viewController id="Ls2-ny-O4c" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddRss" id="Ls2-ny-O4c" customClass="AddRssVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7QH-Lt-z62">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,6 +123,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rET-rd-vTL">
                                         <rect key="frame" x="0.0" y="54" width="343" height="30"/>
                                         <state key="normal" title="Добавить"/>
+                                        <connections>
+                                            <action selector="addAction:" destination="Ls2-ny-O4c" eventType="touchUpInside" id="zbO-W4-WE0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -131,6 +138,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yTc-K0-wc0"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="ZhU-ri-Qz6" id="GP4-Dv-7Og"/>
+                        <outlet property="urlTextField" destination="gMF-Wx-lkd" id="0pR-Xt-jN6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Su2-8h-zyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
