@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSArray *)listRssItems;
 
-+ (void)loadRssNews: (NSString *)url completion: (void (^)(NSArray *rssNews, NSError *error))completion;
++ (void)loadRssFeed: (NSString *)url completion: (void (^)(NSArray *rssFeedItems, NSError *error))completion;
 
 @end
 

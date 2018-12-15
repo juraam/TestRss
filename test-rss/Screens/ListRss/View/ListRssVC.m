@@ -80,7 +80,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    ListRssViewModel *viewModel = [self.viewModels objectAtIndex:indexPath.row];
+    [self.output didSelectViewModelWithUrl:viewModel.url];
 }
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath

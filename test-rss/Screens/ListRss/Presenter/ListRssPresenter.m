@@ -9,6 +9,7 @@
 #import "ListRssModuleOutput.h"
 #import "ListRssRouterInput.h"
 #import "AddRssAssembly.h"
+#import "RssFeedAssembly.h"
 
 @interface ListRssPresenter ()
 
@@ -39,6 +40,12 @@
 {
     [self.view setupInitialState];
     [self.interactor loadRssList];
+}
+
+- (void)didSelectViewModelWithUrl:(NSString *)url
+{
+    NSObject<RssFeedModuleInput> *input = [RssFeedAssembly createModuleWithUrl: url];
+    [input presentRssFeedModuleFromNavigationController:self.view.controller.navigationController];
 }
 
 - (void)didViewAppear

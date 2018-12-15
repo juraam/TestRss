@@ -23,14 +23,16 @@ PODS:
     - "MWFeedParser/NSString+HTML"
   - "MWFeedParser/NSDate+InternetDateTime (1.0.1)"
   - "MWFeedParser/NSString+HTML (1.0.1)"
-  - Realm (3.12.0):
-    - Realm/Headers (= 3.12.0)
-  - Realm/Headers (3.12.0)
+  - ProgressHUD (2.60)
+  - Realm (3.13.0):
+    - Realm/Headers (= 3.13.0)
+  - Realm/Headers (3.13.0)
   - SCViewShaker (1.0.2)
 
 DEPENDENCIES:
   - AFNetworking
   - MWFeedParser
+  - ProgressHUD
   - Realm
   - SCViewShaker (~> 1.0)
 
@@ -38,15 +40,17 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - MWFeedParser
+    - ProgressHUD
     - Realm
     - SCViewShaker
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
-  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  Realm: 5edd2ee65406aef591a4f9895de5a3440e51b3d8
   SCViewShaker: ebd2937cc5ac1de808164bcb5be2a23c8a6e7ab6
 
-PODFILE CHECKSUM: c04954aec86c9a6d20dfbe1674de63cfe4403e6c
+PODFILE CHECKSUM: 0b4a27438af0e85d9ddc823c7bc91e35781157c5
 
 COCOAPODS: 1.5.2

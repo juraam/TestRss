@@ -27,6 +27,15 @@
 		305B380421C3CCAF009F8134 /* AddRssVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37F221C3CCAF009F8134 /* AddRssVC.m */; };
 		305B380621C3CCAF009F8134 /* AddRssInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B37F921C3CCAF009F8134 /* AddRssInteractor.m */; };
 		305B380721C3CCAF009F8134 /* AddRssRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B380121C3CCAF009F8134 /* AddRssRouter.m */; };
+		305B382321C3D1E4009F8134 /* RssFeedAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B380B21C3D1E4009F8134 /* RssFeedAssembly.m */; };
+		305B382421C3D1E4009F8134 /* RssFeedPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B380D21C3D1E4009F8134 /* RssFeedPresenter.m */; };
+		305B382521C3D1E4009F8134 /* RssFeedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B381321C3D1E4009F8134 /* RssFeedVC.m */; };
+		305B382721C3D1E4009F8134 /* RssFeedInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B381E21C3D1E4009F8134 /* RssFeedInteractor.m */; };
+		305B382821C3D1E4009F8134 /* RssFeedRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B382221C3D1E4009F8134 /* RssFeedRouter.m */; };
+		305B382B21C3D460009F8134 /* RssFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B382A21C3D460009F8134 /* RssFeedItem.m */; };
+		305B382E21C4BCEA009F8134 /* RssFeedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B382D21C4BCEA009F8134 /* RssFeedViewModel.m */; };
+		305B383421C4C53E009F8134 /* RssFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B383221C4C53E009F8134 /* RssFeedCell.m */; };
+		305B383721C4CC91009F8134 /* NetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 305B383621C4CC91009F8134 /* NetworkStatus.m */; };
 		482D9D8C530E2CD4F20AA94D /* libPods-test-rss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C145970F310E43033D42C1B /* libPods-test-rss.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +94,31 @@
 		305B37FF21C3CCAF009F8134 /* AddRssRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssRouterInput.h; sourceTree = "<group>"; };
 		305B380021C3CCAF009F8134 /* AddRssRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRssRouter.h; sourceTree = "<group>"; };
 		305B380121C3CCAF009F8134 /* AddRssRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRssRouter.m; sourceTree = "<group>"; };
+		305B380A21C3D1E4009F8134 /* RssFeedAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedAssembly.h; sourceTree = "<group>"; };
+		305B380B21C3D1E4009F8134 /* RssFeedAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssFeedAssembly.m; sourceTree = "<group>"; };
+		305B380D21C3D1E4009F8134 /* RssFeedPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssFeedPresenter.m; sourceTree = "<group>"; };
+		305B380E21C3D1E4009F8134 /* RssFeedModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedModuleInput.h; sourceTree = "<group>"; };
+		305B380F21C3D1E4009F8134 /* RssFeedPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedPresenter.h; sourceTree = "<group>"; };
+		305B381021C3D1E4009F8134 /* RssFeedModuleOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedModuleOutput.h; sourceTree = "<group>"; };
+		305B381221C3D1E4009F8134 /* RssFeedViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedViewOutput.h; sourceTree = "<group>"; };
+		305B381321C3D1E4009F8134 /* RssFeedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssFeedVC.m; sourceTree = "<group>"; };
+		305B381421C3D1E4009F8134 /* RssFeedViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedViewInput.h; sourceTree = "<group>"; };
+		305B381821C3D1E4009F8134 /* RssFeedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedVC.h; sourceTree = "<group>"; };
+		305B381B21C3D1E4009F8134 /* RssFeedInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedInteractorOutput.h; sourceTree = "<group>"; };
+		305B381C21C3D1E4009F8134 /* RssFeedInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedInteractor.h; sourceTree = "<group>"; };
+		305B381D21C3D1E4009F8134 /* RssFeedInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedInteractorInput.h; sourceTree = "<group>"; };
+		305B381E21C3D1E4009F8134 /* RssFeedInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssFeedInteractor.m; sourceTree = "<group>"; };
+		305B382021C3D1E4009F8134 /* RssFeedRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedRouter.h; sourceTree = "<group>"; };
+		305B382121C3D1E4009F8134 /* RssFeedRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedRouterInput.h; sourceTree = "<group>"; };
+		305B382221C3D1E4009F8134 /* RssFeedRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssFeedRouter.m; sourceTree = "<group>"; };
+		305B382921C3D460009F8134 /* RssFeedItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssFeedItem.h; sourceTree = "<group>"; };
+		305B382A21C3D460009F8134 /* RssFeedItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssFeedItem.m; sourceTree = "<group>"; };
+		305B382C21C4BCEA009F8134 /* RssFeedViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssFeedViewModel.h; sourceTree = "<group>"; };
+		305B382D21C4BCEA009F8134 /* RssFeedViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssFeedViewModel.m; sourceTree = "<group>"; };
+		305B383221C4C53E009F8134 /* RssFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssFeedCell.m; sourceTree = "<group>"; };
+		305B383321C4C53E009F8134 /* RssFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedCell.h; sourceTree = "<group>"; };
+		305B383521C4CC91009F8134 /* NetworkStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkStatus.h; sourceTree = "<group>"; };
+		305B383621C4CC91009F8134 /* NetworkStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkStatus.m; sourceTree = "<group>"; };
 		A65DC38CEC3FEF56BA5B7AE0 /* Pods-test-rss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-rss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-rss/Pods-test-rss.debug.xcconfig"; sourceTree = "<group>"; };
 		E8638239D06AE77B7D524150 /* Pods-test-rss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-rss.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-rss/Pods-test-rss.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +177,8 @@
 			children = (
 				305B37B121C3B007009F8134 /* RSSService.h */,
 				305B37B221C3B007009F8134 /* RSSService.m */,
+				305B383521C4CC91009F8134 /* NetworkStatus.h */,
+				305B383621C4CC91009F8134 /* NetworkStatus.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -150,6 +186,7 @@
 		3034A52921C3A9F200F77439 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				305B380821C3D1E4009F8134 /* RssFeed */,
 				305B37E721C3CCAF009F8134 /* AddRss */,
 				305B37B521C3B214009F8134 /* ListRss */,
 			);
@@ -161,6 +198,8 @@
 			children = (
 				305B37DD21C3B980009F8134 /* RssItem.h */,
 				305B37DE21C3B980009F8134 /* RssItem.m */,
+				305B382921C3D460009F8134 /* RssFeedItem.h */,
+				305B382A21C3D460009F8134 /* RssFeedItem.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -314,6 +353,82 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		305B380821C3D1E4009F8134 /* RssFeed */ = {
+			isa = PBXGroup;
+			children = (
+				305B380921C3D1E4009F8134 /* Assembly */,
+				305B380C21C3D1E4009F8134 /* Presenter */,
+				305B381121C3D1E4009F8134 /* View */,
+				305B381921C3D1E4009F8134 /* Interactor */,
+				305B381F21C3D1E4009F8134 /* Router */,
+			);
+			path = RssFeed;
+			sourceTree = "<group>";
+		};
+		305B380921C3D1E4009F8134 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				305B380A21C3D1E4009F8134 /* RssFeedAssembly.h */,
+				305B380B21C3D1E4009F8134 /* RssFeedAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		305B380C21C3D1E4009F8134 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				305B380D21C3D1E4009F8134 /* RssFeedPresenter.m */,
+				305B380E21C3D1E4009F8134 /* RssFeedModuleInput.h */,
+				305B380F21C3D1E4009F8134 /* RssFeedPresenter.h */,
+				305B381021C3D1E4009F8134 /* RssFeedModuleOutput.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		305B381121C3D1E4009F8134 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				305B383321C4C53E009F8134 /* RssFeedCell.h */,
+				305B383221C4C53E009F8134 /* RssFeedCell.m */,
+				305B381221C3D1E4009F8134 /* RssFeedViewOutput.h */,
+				305B381321C3D1E4009F8134 /* RssFeedVC.m */,
+				305B381421C3D1E4009F8134 /* RssFeedViewInput.h */,
+				305B381821C3D1E4009F8134 /* RssFeedVC.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		305B381921C3D1E4009F8134 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				305B381A21C3D1E4009F8134 /* ViewModels */,
+				305B381B21C3D1E4009F8134 /* RssFeedInteractorOutput.h */,
+				305B381C21C3D1E4009F8134 /* RssFeedInteractor.h */,
+				305B381D21C3D1E4009F8134 /* RssFeedInteractorInput.h */,
+				305B381E21C3D1E4009F8134 /* RssFeedInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		305B381A21C3D1E4009F8134 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				305B382C21C4BCEA009F8134 /* RssFeedViewModel.h */,
+				305B382D21C4BCEA009F8134 /* RssFeedViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		305B381F21C3D1E4009F8134 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				305B382021C3D1E4009F8134 /* RssFeedRouter.h */,
+				305B382121C3D1E4009F8134 /* RssFeedRouterInput.h */,
+				305B382221C3D1E4009F8134 /* RssFeedRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		5B83D64E30E8AAD6A0D6615E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,6 +457,7 @@
 				3034A50B21C3A9B000F77439 /* Sources */,
 				3034A50C21C3A9B000F77439 /* Frameworks */,
 				3034A50D21C3A9B000F77439 /* Resources */,
+				9FAB5CA81D94D24FD668FFEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -416,6 +532,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9FAB5CA81D94D24FD668FFEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-test-rss/Pods-test-rss-resources.sh",
+				"${PODS_ROOT}/ProgressHUD/ProgressHUD/ProgressHUD/ProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-rss/Pods-test-rss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -425,21 +559,30 @@
 			files = (
 				305B380621C3CCAF009F8134 /* AddRssInteractor.m in Sources */,
 				305B380221C3CCAF009F8134 /* AddRssAssembly.m in Sources */,
+				305B382321C3D1E4009F8134 /* RssFeedAssembly.m in Sources */,
 				305B37B321C3B007009F8134 /* RSSService.m in Sources */,
+				305B383721C4CC91009F8134 /* NetworkStatus.m in Sources */,
+				305B383421C4C53E009F8134 /* RssFeedCell.m in Sources */,
+				305B382421C3D1E4009F8134 /* RssFeedPresenter.m in Sources */,
 				305B37D121C3B214009F8134 /* ListRssPresenter.m in Sources */,
 				305B380721C3CCAF009F8134 /* AddRssRouter.m in Sources */,
 				305B380321C3CCAF009F8134 /* AddRssPresenter.m in Sources */,
 				305B37DF21C3B980009F8134 /* RssItem.m in Sources */,
 				305B37D321C3B214009F8134 /* ListRssVC.m in Sources */,
 				305B37DC21C3B708009F8134 /* ListRssViewModel.m in Sources */,
+				305B382821C3D1E4009F8134 /* RssFeedRouter.m in Sources */,
 				305B37E621C3C3E2009F8134 /* UIViewController+Storyboard.m in Sources */,
 				3034A52221C3A9B300F77439 /* main.m in Sources */,
 				305B380421C3CCAF009F8134 /* AddRssVC.m in Sources */,
+				305B382721C3D1E4009F8134 /* RssFeedInteractor.m in Sources */,
 				305B37D421C3B214009F8134 /* ListRssInteractor.m in Sources */,
 				3034A51421C3A9B000F77439 /* AppDelegate.m in Sources */,
 				305B37D021C3B214009F8134 /* ListRssAssembly.m in Sources */,
 				305B37D521C3B214009F8134 /* ListRssRouter.m in Sources */,
+				305B382B21C3D460009F8134 /* RssFeedItem.m in Sources */,
+				305B382E21C4BCEA009F8134 /* RssFeedViewModel.m in Sources */,
 				305B37E221C3BB58009F8134 /* RssItemCell.m in Sources */,
+				305B382521C3D1E4009F8134 /* RssFeedVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

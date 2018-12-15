@@ -10,6 +10,7 @@
 #import "ListRssAssembly.h"
 #import "ListRssModuleInput.h"
 #import "RSSService.h"
+#import "NetworkStatus.h"
 
 static NSString *const kAddedTemplateItems = @"kAddedTemplateItems";
 
@@ -24,6 +25,7 @@ static NSString *const kAddedTemplateItems = @"kAddedTemplateItems";
     CGRect rect = [UIScreen mainScreen].bounds;
     self.window = [[UIWindow alloc] initWithFrame:rect];
     [self addTemplateRssItemsIfNeed];
+    [NetworkStatus instance];
     NSObject <ListRssModuleInput> *input = [ListRssAssembly createModule];
     [input presentRootNavigationModuleFromWindow: self.window];
     // Override point for customization after application launch.

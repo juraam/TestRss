@@ -10,5 +10,6 @@ pod 'MWFeedParser'
 pod 'AFNetworking'
 pod 'Realm'
 pod 'SCViewShaker', '~> 1.0'
+pod 'ProgressHUD'
 
 end

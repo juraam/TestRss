@@ -11,6 +11,8 @@
 
 - (void)deleteRssItemWithId: (NSString *)idObject;
 
+- (void)didSelectViewModelWithUrl: (NSString *)url;
+
 - (void)addAction;
 
 @end
