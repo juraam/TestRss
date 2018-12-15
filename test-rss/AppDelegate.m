@@ -39,6 +39,7 @@ static NSString *const kAddedTemplateItems = @"kAddedTemplateItems";
         [defaults setBool:YES forKey:kAddedTemplateItems];
         [RSSService addRssItemWithUrl:@"https://www.yahoo.com/news/rss/sports" name:@"Yahoo sport"];
         [RSSService addRssItemWithUrl:@"http://www.nba.com/rss/nba_rss.xml" name:@"NBA sport"];
+        [RSSService addRssItemWithUrl:@"http://www.nfl.com/rss/rsslanding?searchString=home" name:@"NFL sport"];
     }
 }
 
