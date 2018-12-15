@@ -9,4 +9,6 @@
 
 - (void)addRssWithName: (NSString *)name url: (NSString *)url;
 
+- (void)dismissAction;
+
 @end

@@ -3,11 +3,14 @@
 //	test-rss
 //
 
+#import <SafariServices/SafariServices.h>
+
 #import "RssFeedPresenter.h"
 #import "RssFeedViewInput.h"
 #import "RssFeedInteractorInput.h"
 #import "RssFeedModuleOutput.h"
 #import "RssFeedRouterInput.h"
+#import "RssFeedViewModel.h"
 
 @interface RssFeedPresenter ()
 
@@ -34,6 +37,13 @@
     [self.view setupInitialState];
     [self.view showLoadingIndicator];
     [self.interactor loadRssFeed];
+}
+
+- (void)didSelectViewModel:(id)viewModel
+{
+    RssFeedViewModel *model = (RssFeedViewModel *)viewModel;
+    SFSafariViewController *vc = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:model.link]];
+    [self.view.controller presentViewController:vc animated:YES completion:nil];
 }
 
 #pragma mark - <InteractorOutput>

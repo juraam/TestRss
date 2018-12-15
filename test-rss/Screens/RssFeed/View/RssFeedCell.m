@@ -22,7 +22,7 @@
 - (void)updateWithViewModel: (RssFeedViewModel *)viewModel
 {
     self.titleLabel.text = viewModel.title;
-    self.summaryLabel.text = viewModel.summary;
+//    self.summaryLabel.text = viewModel.summary;
     self.dateLabel.text = [NSDateFormatter localizedStringFromDate:viewModel.date
                                                          dateStyle:NSDateFormatterShortStyle
                                                          timeStyle:NSDateFormatterNoStyle];

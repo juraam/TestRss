@@ -7,4 +7,6 @@
 
 - (void)didTriggerViewReadyEvent;
 
+- (void)didSelectViewModel: (id)viewModel;
+
 @end

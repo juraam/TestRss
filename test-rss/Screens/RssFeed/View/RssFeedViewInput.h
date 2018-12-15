@@ -17,4 +17,6 @@
 
 - (void)updateItems: (NSArray *)items;
 
+- (UIViewController *)controller;
+
 @end

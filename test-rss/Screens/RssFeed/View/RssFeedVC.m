@@ -50,6 +50,11 @@
     [ProgressHUD dismiss];
 }
 
+- (UIViewController *)controller
+{
+    return self;
+}
+
 - (void)updateItems:(NSArray *)items
 {
     self.items = items;
@@ -72,7 +77,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    [self.output didSelectViewModel:[self.items objectAtIndex:indexPath.row]];
 }
 
 @end

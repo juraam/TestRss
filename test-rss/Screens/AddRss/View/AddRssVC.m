@@ -24,6 +24,11 @@
 
 #pragma mark - IBActions
 
+- (IBAction)dismissAction:(id)sender
+{
+    [self.output dismissAction];
+}
+
 - (IBAction)addAction:(id)sender
 {
     if (self.nameTextField.text.length == 0 || self.urlTextField.text.length == 0) {

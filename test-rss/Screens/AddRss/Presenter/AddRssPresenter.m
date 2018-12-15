@@ -29,6 +29,11 @@
 
 #pragma mark - <ViewOutput>
 
+- (void)dismissAction
+{
+    [self.router dismiss];
+}
+
 - (void)didTriggerViewReadyEvent
 {
     [self.view setupInitialState];
